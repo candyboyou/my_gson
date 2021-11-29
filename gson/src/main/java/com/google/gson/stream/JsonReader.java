@@ -578,8 +578,6 @@ public class JsonReader implements Closeable {
         }
       }
 
-      // 上面就是判断这些符号的 ："," ";" "}"（bushi
-
       int c = nextNonWhitespace(true);
       switch (c) {
       case '"':
